@@ -1,20 +1,20 @@
 import {
+  tensorflow,
+  pytorch,
+  dart,
   mobile,
   backend,
 creator,
   web,
   javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
+  Python,
+  C++,
+  C,
+  Ai,
   nodejs,
-  mongodb,
+  postgres,
+  tailwind,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -43,7 +43,7 @@ export const navLinks = [
 const services = [
   {
     title: "AI programmer",
-    icon: web,
+    icon: Ai,
   },
 
   {
@@ -55,7 +55,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Flutter Developer",
     icon: backend,
   },
   {
@@ -66,28 +66,24 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: Python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "C++",
+    icon: C++,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C",
+    icon: C,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Dart",
+    icon: Dart,
   },
   {
     name: "Tailwind CSS",
@@ -98,8 +94,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Postgress",
+    icon: Postgress,
   },
   {
     name: "Three JS",
@@ -110,40 +106,40 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: " tensor flow",
+    icon: tensorflow,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Pytorch",
+    icon: pytorch,
   },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Microsoft",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2024- Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed high-performance mobile applications using Flutter",
+      "Collaborated with cross-functional teams to translate requirements into functional app features.",
+      "Implemented modern UI/UX designs and optimized app performance through thorough testing and debugging.",
+      "Integrated various APIs and backend services.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "AI Specialist",
+    company_name: "NOT@MRP Innovations Private Limited",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2023 – June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Leveraged advanced artificial intelligence technologies to drive innovation and solve complex problems.",
+      "Expertise in machine learning, natural language processing, and deep learning",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered impactful solutions aligned with organizational goals",
     ],
   },
   {
@@ -160,16 +156,14 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "IoT & Web Specialist",
+    company_name: "Experiential Learning, Thapar Institute of Engineering and Technology (Internship)",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sept 2023 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Focused on integrating Internet of Things (IoT) solutions and web technologies",
+      "Developed and optimized IoT devices and web applications, ensuring seamless connectivity and usercentric experiences",
     ],
   },
 ];
@@ -203,9 +197,11 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crowd Source Disaster Management Application using Flutter",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a crowd-sourced disaster management app using Flutter. Designed and implemented key features 
+to enable real-time reporting and resource coordination. Collaborated with designers and other developers 
+to create an intuitive UI/UX. Integrated APIs for live updates and notifications.",
     tags: [
       {
         name: "react",
@@ -224,9 +220,12 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Sentimental Analysis using LSTM for Emotional Insights",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Implemented LSTM-based Sentiment Analysis, leveraging deep learning to decode emotional nuances in 
+textual data. Achieved high accuracy, contributing to a nuanced understanding of sentiments expressed in 
+diverse datasets for applications in customer feedback and social media analysis and used flask for user 
+interactions.",
     tags: [
       {
         name: "react",
@@ -245,9 +244,11 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Landscape and Cloud Burst Detection Research Work",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Conducting groundbreaking research in landscape and cloud burst detection, employing advanced image 
+processing and machine learning techniques. Pioneering efforts to enhance early warning systems for natural 
+disasters through innovative data analysis and algorithm development.",
     tags: [
       {
         name: "nextjs",
