@@ -1,7 +1,7 @@
 import {
   mobile,
   backend,
-  creator,
+creator,
   web,
   javascript,
   typescript,
