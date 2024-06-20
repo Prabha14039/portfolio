@@ -8,8 +8,8 @@ import {
   web,
   javascript,
   python,
-  c++,
-  C,
+  cpp,
+  c,
   nodejs,
   postgres,
   tailwind,
@@ -42,7 +42,7 @@ export const navLinks = [
 const services = [
   {
     title: "AI programmer",
-    icon: tensorflow,
+    icon: web,
   },
   {
     title: "Web Developer",
@@ -69,7 +69,7 @@ const technologies = [
   },
   {
     name: "C++",
-    icon: c++,
+    icon: cpp,
   },
   {
     name: "JavaScript",
@@ -77,7 +77,7 @@ const technologies = [
   },
   {
     name: "C",
-    icon: C,
+    icon: c,
   },
   {
     name: "Dart",
