@@ -15,10 +15,10 @@ import nodejs from "./tech/nodejs.png";
 import tailwind from "./tech/tailwind.png";
 import c from "./tech/C.png";
 import threejs from "./tech/threejs.svg";
-import cpp from "./tech/c++.svg";
-import dart from "./tech/dart.svg";
-import pytorch from "./tech/pytorch.svg";
-import tensorflow from "./tech/tensorflow.svg";
+import cpp from "./tech/c++.png";
+import dart from "./tech/dart.png";
+import pytorch from "./tech/pytorch.png";
+import tensorflow from "./tech/tensorflow.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
