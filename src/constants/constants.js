@@ -4,7 +4,7 @@ import {
   dart,
   mobile,
   backend,
-creator,
+  creator,
   web,
   javascript,
   python,
@@ -42,9 +42,8 @@ export const navLinks = [
 const services = [
   {
     title: "AI programmer",
-    icon: web,
+    icon: tensorflow,
   },
-
   {
     title: "Web Developer",
     icon: web,
@@ -55,7 +54,7 @@ const services = [
   },
   {
     title: "Flutter Developer",
-    icon: backend,
+    icon: dart,
   },
   {
     title: "Content Creator",
@@ -66,11 +65,11 @@ const services = [
 const technologies = [
   {
     name: "Python",
-    icon: Python,
+    icon: python,
   },
   {
     name: "C++",
-    icon: C++,
+    icon: c++,
   },
   {
     name: "JavaScript",
@@ -78,11 +77,11 @@ const technologies = [
   },
   {
     name: "C",
-    icon: c,
+    icon: C,
   },
   {
     name: "Dart",
-    icon: Dart,
+    icon: dart,
   },
   {
     name: "Tailwind CSS",
@@ -93,23 +92,23 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Postgress",
-    icon: Postgress,
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: " tensor flow",
+    name: "TensorFlow",
     icon: tensorflow,
   },
   {
-    name: "Pytorch",
+    name: "PyTorch",
     icon: pytorch,
   },
 ];
@@ -120,9 +119,9 @@ const experiences = [
     company_name: "Microsoft",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "Feb 2024- Present",
+    date: "Feb 2024 - Present",
     points: [
-      "Developed high-performance mobile applications using Flutter",
+      "Developed high-performance mobile applications using Flutter.",
       "Collaborated with cross-functional teams to translate requirements into functional app features.",
       "Implemented modern UI/UX designs and optimized app performance through thorough testing and debugging.",
       "Integrated various APIs and backend services.",
@@ -136,9 +135,9 @@ const experiences = [
     date: "Sept 2023 – June 2024",
     points: [
       "Leveraged advanced artificial intelligence technologies to drive innovation and solve complex problems.",
-      "Expertise in machine learning, natural language processing, and deep learning",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Delivered impactful solutions aligned with organizational goals",
+      "Expertise in machine learning, natural language processing, and deep learning.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+      "Delivered impactful solutions aligned with organizational goals.",
     ],
   },
   {
@@ -148,10 +147,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to other developers.",
     ],
   },
   {
@@ -161,8 +160,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sept 2023 – Present",
     points: [
-      "Focused on integrating Internet of Things (IoT) solutions and web technologies",
-      "Developed and optimized IoT devices and web applications, ensuring seamless connectivity and usercentric experiences",
+      "Focused on integrating Internet of Things (IoT) solutions and web technologies.",
+      "Developed and optimized IoT devices and web applications, ensuring seamless connectivity and user-centric experiences.",
     ],
   },
 ];
@@ -198,9 +197,7 @@ const projects = [
   {
     name: "Crowd Source Disaster Management Application using Flutter",
     description:
-      "Developed a crowd-sourced disaster management app using Flutter. Designed and implemented key features 
-to enable real-time reporting and resource coordination. Collaborated with designers and other developers 
-to create an intuitive UI/UX. Integrated APIs for live updates and notifications.",
+      "Developed a crowd-sourced disaster management app using Flutter. Designed and implemented key features to enable real-time reporting and resource coordination. Collaborated with designers and other developers to create an intuitive UI/UX. Integrated APIs for live updates and notifications.",
     tags: [
       {
         name: "react",
@@ -221,10 +218,7 @@ to create an intuitive UI/UX. Integrated APIs for live updates and notifications
   {
     name: "Sentimental Analysis using LSTM for Emotional Insights",
     description:
-      "Implemented LSTM-based Sentiment Analysis, leveraging deep learning to decode emotional nuances in 
-textual data. Achieved high accuracy, contributing to a nuanced understanding of sentiments expressed in 
-diverse datasets for applications in customer feedback and social media analysis and used flask for user 
-interactions.",
+      "Implemented LSTM-based Sentiment Analysis, leveraging deep learning to decode emotional nuances in textual data. Achieved high accuracy, contributing to a nuanced understanding of sentiments expressed in diverse datasets for applications in customer feedback and social media analysis and used Flask for user interactions.",
     tags: [
       {
         name: "react",
@@ -245,9 +239,7 @@ interactions.",
   {
     name: "Landscape and Cloud Burst Detection Research Work",
     description:
-      "Conducting groundbreaking research in landscape and cloud burst detection, employing advanced image 
-processing and machine learning techniques. Pioneering efforts to enhance early warning systems for natural 
-disasters through innovative data analysis and algorithm development.",
+      "Conducted groundbreaking research in landscape and cloud burst detection, employing advanced image processing and machine learning techniques. Pioneering efforts to enhance early warning systems for natural disasters through innovative data analysis and algorithm development.",
     tags: [
       {
         name: "nextjs",
