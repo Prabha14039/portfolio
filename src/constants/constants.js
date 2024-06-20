@@ -7,8 +7,8 @@ import {
 creator,
   web,
   javascript,
-  Python,
-  C++,
+  python,
+  c++,
   C,
   nodejs,
   postgres,
@@ -42,7 +42,7 @@ export const navLinks = [
 const services = [
   {
     title: "AI programmer",
-    icon: Ai,
+    icon: web,
   },
 
   {
@@ -78,7 +78,7 @@ const technologies = [
   },
   {
     name: "C",
-    icon: C,
+    icon: c,
   },
   {
     name: "Dart",
