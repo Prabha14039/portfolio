@@ -13,9 +13,9 @@ import javascript from "./tech/javascript.png";
 import postgres from "./tech/Postgres.png";
 import nodejs from "./tech/nodejs.png";
 import tailwind from "./tech/tailwind.png";
-import C from "./tech/C.png";
+import c from "./tech/C.png";
 import threejs from "./tech/threejs.svg";
-import c++ from "./tech/c++.svg";
+import cpp from "./tech/c++.svg";
 import dart from "./tech/dart.svg";
 import pytorch from "./tech/pytorch.svg";
 import tensorflow from "./tech/tensorflow.svg";
@@ -44,9 +44,9 @@ export {
   postgres,
   nodejs,
   tailwind,
-  C,
+  c,
   threejs,
-  c++,
+  cpp,
   dart,
   pytorch,
   tensorflow,
